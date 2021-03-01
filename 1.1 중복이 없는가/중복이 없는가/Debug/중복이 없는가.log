@@ -1,0 +1,4 @@
+﻿  중복이 없는가.cpp
+D:\algorithm\중복이 없는가\중복이 없는가\중복이 없는가.cpp(19,20): warning C4018: '<': signed/unsigned mismatch
+D:\algorithm\중복이 없는가\중복이 없는가\중복이 없는가.cpp(21,25): warning C4018: '<': signed/unsigned mismatch
+  중복이 없는가.vcxproj -> D:\algorithm\중복이 없는가\Debug\중복이 없는가.exe
