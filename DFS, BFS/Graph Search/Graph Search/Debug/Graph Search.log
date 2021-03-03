@@ -1,0 +1,6 @@
+﻿  Graph Search.cpp
+D:\algorithm\DFS, BFS\Graph Search\Graph Search\Graph.h(65,21): warning C4018: '<': signed/unsigned mismatch
+D:\algorithm\DFS, BFS\Graph Search\Graph Search\Graph.h(85,21): warning C4018: '<': signed/unsigned mismatch
+D:\algorithm\DFS, BFS\Graph Search\Graph Search\Graph.h(97,21): warning C4018: '<': signed/unsigned mismatch
+D:\algorithm\DFS, BFS\Graph Search\Graph Search\Graph.h(121,21): warning C4018: '<': signed/unsigned mismatch
+  Graph Search.vcxproj -> D:\algorithm\DFS, BFS\Graph Search\Debug\Graph Search.exe
