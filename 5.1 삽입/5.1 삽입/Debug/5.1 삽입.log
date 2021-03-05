@@ -1,0 +1,3 @@
+﻿  5.1 삽입.cpp
+D:\algorithm\5.1 삽입\5.1 삽입\5.1 삽입.cpp(18,53): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+  5.1 삽입.vcxproj -> D:\algorithm\5.1 삽입\Debug\5.1 삽입.exe
