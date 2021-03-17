@@ -1,8 +1,0 @@
-﻿  Source.cpp
-D:\algorithm\8.4 부분집합\8.4 부분집합\Source.cpp(26,20): warning C4018: '<': signed/unsigned mismatch
-D:\algorithm\8.4 부분집합\8.4 부분집합\Source.cpp(34,20): warning C4018: '<': signed/unsigned mismatch
-D:\algorithm\8.4 부분집합\8.4 부분집합\Source.cpp(58,26): warning C4018: '<': signed/unsigned mismatch
-D:\algorithm\8.4 부분집합\8.4 부분집합\Source.cpp(60,35): warning C4018: '<': signed/unsigned mismatch
-D:\algorithm\8.4 부분집합\8.4 부분집합\Source.cpp(81,26): warning C4018: '<': signed/unsigned mismatch
-D:\algorithm\8.4 부분집합\8.4 부분집합\Source.cpp(83,22): warning C4018: '<': signed/unsigned mismatch
-  8.4 부분집합.vcxproj -> D:\algorithm\8.4 부분집합\Debug\8.4 부분집합.exe
