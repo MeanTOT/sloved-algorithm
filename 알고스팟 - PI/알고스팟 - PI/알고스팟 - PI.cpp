@@ -25,12 +25,12 @@ bool IsDifficulty_2(string number)
 {
 	char temp1 = number[0];
 	char temp2 = number[1];
-	int interval = abs(number[0] - number[1]);
-	if (interval == 1)
+	int interval = number[0] - number[1];
+	if (interval == 1 || interval == -1)
 	{
 		for (int i = 1; i < number.size() - 1; i++)
 		{
-			if (abs(number[i] - number[i + 1]) != interval)
+			if (number[i] - number[i + 1] != interval)
 				return false;
 		}
 	}
