@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "백준 - 포도주 시식", "백준 - 포도주 시식\백준 - 포도주 시식.vcxproj", "{ECCE63C9-A1C1-42E9-8170-CD064547CA54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECCE63C9-A1C1-42E9-8170-CD064547CA54}.Debug|x64.ActiveCfg = Debug|x64
+		{ECCE63C9-A1C1-42E9-8170-CD064547CA54}.Debug|x64.Build.0 = Debug|x64
+		{ECCE63C9-A1C1-42E9-8170-CD064547CA54}.Debug|x86.ActiveCfg = Debug|Win32
+		{ECCE63C9-A1C1-42E9-8170-CD064547CA54}.Debug|x86.Build.0 = Debug|Win32
+		{ECCE63C9-A1C1-42E9-8170-CD064547CA54}.Release|x64.ActiveCfg = Release|x64
+		{ECCE63C9-A1C1-42E9-8170-CD064547CA54}.Release|x64.Build.0 = Release|x64
+		{ECCE63C9-A1C1-42E9-8170-CD064547CA54}.Release|x86.ActiveCfg = Release|Win32
+		{ECCE63C9-A1C1-42E9-8170-CD064547CA54}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B0F5305-F142-4C14-BAD4-1AE9C8825061}
+	EndGlobalSection
+EndGlobal
