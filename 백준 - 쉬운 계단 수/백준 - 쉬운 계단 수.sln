@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "백준 - 쉬운 계단 수", "백준 - 쉬운 계단 수\백준 - 쉬운 계단 수.vcxproj", "{0B0EFB05-5057-4DBF-B8F7-374B3FDDE5D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B0EFB05-5057-4DBF-B8F7-374B3FDDE5D1}.Debug|x64.ActiveCfg = Debug|x64
+		{0B0EFB05-5057-4DBF-B8F7-374B3FDDE5D1}.Debug|x64.Build.0 = Debug|x64
+		{0B0EFB05-5057-4DBF-B8F7-374B3FDDE5D1}.Debug|x86.ActiveCfg = Debug|Win32
+		{0B0EFB05-5057-4DBF-B8F7-374B3FDDE5D1}.Debug|x86.Build.0 = Debug|Win32
+		{0B0EFB05-5057-4DBF-B8F7-374B3FDDE5D1}.Release|x64.ActiveCfg = Release|x64
+		{0B0EFB05-5057-4DBF-B8F7-374B3FDDE5D1}.Release|x64.Build.0 = Release|x64
+		{0B0EFB05-5057-4DBF-B8F7-374B3FDDE5D1}.Release|x86.ActiveCfg = Release|Win32
+		{0B0EFB05-5057-4DBF-B8F7-374B3FDDE5D1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {901CEC84-6ADF-401E-A731-91E7B3E0994E}
+	EndGlobalSection
+EndGlobal
