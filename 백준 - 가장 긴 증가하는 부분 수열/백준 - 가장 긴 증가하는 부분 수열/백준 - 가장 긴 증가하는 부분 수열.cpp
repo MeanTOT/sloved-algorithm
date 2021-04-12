@@ -3,40 +3,33 @@
 #include <memory.h>
 using namespace std;
 int A = 0;
-int MaxLength = 0;
 int cache[1001];
 vector<int> numbers;
-int dp(int previous, int index, int length)
+int dp(int start)
 {
-	if (index == numbers.size())
-		return length;
-	
-	length++;
-	int& result = cache[index];
-	if (numbers[index] > previous)
-	{		
-		if (result != 0) return length + result;
-		result = max(result,dp(numbers[index], index + 1, length));		
-	}
-	
-	result = max(result, dp(previous, index + 1, length - 1));
+	int& result = cache[start];
+	if (result != -1) return result;
 
+	result = 1;
+	for (size_t i = start + 1; i < numbers.size(); i++)
+	{
+		if (numbers[start] < numbers[i])
+			result = max(result, dp(i) + 1);
+	}
 	return result;
 }
 int solution()
 {
-	int result = 1;
-	for (int i = numbers.size() - 1; i >= 0; i--)
-	{
-		result = max(result, dp(0, i, 0));
-	}
+	int result = 0;
+	for (size_t i = 0; i < numbers.size(); i++)
+		result = max(result, dp(i));
 	return result;
 }
 int main()
 {
 	cin >> A;
 	numbers.resize(A);
-	memset(cache, 0, sizeof(cache));
+	memset(cache, -1, sizeof(cache));
 	for (int i = 0; i < A; i++)
 	{
 		cin >> numbers[i];
