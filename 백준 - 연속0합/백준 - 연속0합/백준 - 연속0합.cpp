@@ -6,55 +6,29 @@ int N = 0;
 vector<int> numbers;
 int MaxNumber = -1001;
 int cache[100000];
-//int dp(int start, int end)
-//{
-//    if (start == end)
-//        return numbers[start];
-//
-//    int half = (start + end) / 2;
-//    int result1 = dp(start, half);
-//    int result2 = dp(half + 1, end);
-//    int result3 = result1 + result2;
-//    MaxNumber = max(max(result1, result2), result3);
-//    return result3;
-//}
-int dp(int previsou, int index)
-{
-    if (index == numbers.size()) return 0;    
-    MaxNumber = max(MaxNumber, previsou + numbers[index]);
-    dp(previsou + numbers[index], index + 1);
+int dp(int start)
+{   
+    int& result = cache[start];
+    if (result != -370546199) return result;
+    result = max(numbers[start], numbers[start] + dp(start + 1));
+    return result;
 }
 int solution()
 {
-    /*for (int i = 0; i < N; i++)
+    if (N == 1) return numbers[0];
+    int result = numbers[N - 1];
+    cache[N - 1] = numbers[N - 1];
+    for (int i = N - 2; i >= 0; i--)
     {
-        MaxNumber = dp(0, i);
-    }*/
-    cache[0] = numbers[0] + numbers[1];
-    MaxNumber = cache[0];
-    for (int i = 1; i < N - 1; i++)
-    {
-        cache[i] = cache[i - 1] + numbers[i + 1];
-        MaxNumber = max(MaxNumber, cache[i]);
+        result = max(result, dp(i));
     }
-    int sub = 0;
-    for (int i = 0; i < N - 2; i++)
-    {
-        sub += numbers[i];
-        for (int j = i + 1; j < N - 1; j++)
-        {
-            MaxNumber = max(MaxNumber, cache[j] - sub);
-        }
-        MaxNumber = max(MaxNumber, numbers[i]);
-    }
-    MaxNumber = max(MaxNumber, numbers[N - 2]);
-    MaxNumber = max(MaxNumber, numbers[N - 1]);
-    return MaxNumber;
+    return result;
 }
 int main()
 {
     cin >> N;
     numbers.resize(N);
+    memset(cache, 1001, sizeof(cache));
     for (int i = 0; i < N; i++)
     {
         cin >> numbers[i];
