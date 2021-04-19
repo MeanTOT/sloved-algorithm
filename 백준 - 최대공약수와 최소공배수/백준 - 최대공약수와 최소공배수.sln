@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "백준 - 최대공약수와 최소공배수", "백준 - 최대공약수와 최소공배수\백준 - 최대공약수와 최소공배수.vcxproj", "{27855860-CA5C-45F7-B12D-8FFA3F0A1824}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27855860-CA5C-45F7-B12D-8FFA3F0A1824}.Debug|x64.ActiveCfg = Debug|x64
+		{27855860-CA5C-45F7-B12D-8FFA3F0A1824}.Debug|x64.Build.0 = Debug|x64
+		{27855860-CA5C-45F7-B12D-8FFA3F0A1824}.Debug|x86.ActiveCfg = Debug|Win32
+		{27855860-CA5C-45F7-B12D-8FFA3F0A1824}.Debug|x86.Build.0 = Debug|Win32
+		{27855860-CA5C-45F7-B12D-8FFA3F0A1824}.Release|x64.ActiveCfg = Release|x64
+		{27855860-CA5C-45F7-B12D-8FFA3F0A1824}.Release|x64.Build.0 = Release|x64
+		{27855860-CA5C-45F7-B12D-8FFA3F0A1824}.Release|x86.ActiveCfg = Release|Win32
+		{27855860-CA5C-45F7-B12D-8FFA3F0A1824}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {447C6A78-CB3A-431C-9B9D-9457B4978781}
+	EndGlobalSection
+EndGlobal
