@@ -4,15 +4,40 @@
 #include <algorithm>
 #include <string.h>
 using namespace std;
-string s = "";
-bool Comp(int i, int j)
+string s = "baekjoon";
+vector<int> group;
+int t = 1;
+bool Comp(int a, int b)
 {	
-	return strcmp(s.c_str() + i, s.c_str() + j) < 0;
+	if (group[a] != group[b]) return group[a] < group[b];
+	return group[a + t] < group[b + t];
+}
+vector<int> GetSuffixArray()
+{
+	int n = s.size();
+	group.resize(n + 1);
+	for (int i = 0; i < n; ++i) group[i] = s[i];
+	group[n] = -1;
+	vector<int> perm(n);
+	for (int i = 0; i < n; ++i) perm[i] = i;
+	while (t < n)
+	{
+		sort(perm.begin(), perm.end(), Comp);
+		t *= 2;
+		if (t >= n) break;
+		vector<int> newGroup(n + 1);
+		newGroup[n] = -1;
+		newGroup[perm[0]] = 0;
+		for (int i = 1; i < n; ++i)
+			if (Comp(perm[i - 1], perm[i]))
+				newGroup[perm[i]] = newGroup[perm[i - 1]] + 1;
+			else
+				newGroup[perm[i]] = newGroup[perm[i - 1]];
+		group = newGroup;
+	}
+	return perm;
 }
 int main()
 {
-	vector<int> perm;
-	cin >> s;
-	for (size_t i = 0; i < s.length(); ++i) perm.push_back(i);
-	sort(perm.begin(), perm.end(), Comp);	
+	GetSuffixArray();
 }
