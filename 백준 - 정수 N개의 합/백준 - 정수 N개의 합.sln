@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "백준 - 정수 N개의 합", "백준 - 정수 N개의 합\백준 - 정수 N개의 합.vcxproj", "{DA490CF9-5677-4E65-B9CD-466B609AEA20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA490CF9-5677-4E65-B9CD-466B609AEA20}.Debug|x64.ActiveCfg = Debug|x64
+		{DA490CF9-5677-4E65-B9CD-466B609AEA20}.Debug|x64.Build.0 = Debug|x64
+		{DA490CF9-5677-4E65-B9CD-466B609AEA20}.Debug|x86.ActiveCfg = Debug|Win32
+		{DA490CF9-5677-4E65-B9CD-466B609AEA20}.Debug|x86.Build.0 = Debug|Win32
+		{DA490CF9-5677-4E65-B9CD-466B609AEA20}.Release|x64.ActiveCfg = Release|x64
+		{DA490CF9-5677-4E65-B9CD-466B609AEA20}.Release|x64.Build.0 = Release|x64
+		{DA490CF9-5677-4E65-B9CD-466B609AEA20}.Release|x86.ActiveCfg = Release|Win32
+		{DA490CF9-5677-4E65-B9CD-466B609AEA20}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F197E4FC-00DF-4244-8D69-5E585C6E90FA}
+	EndGlobalSection
+EndGlobal
