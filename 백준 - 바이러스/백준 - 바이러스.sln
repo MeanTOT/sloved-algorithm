@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "백준 - 바이러스", "백준 - 바이러스\백준 - 바이러스.vcxproj", "{FDF970B4-AD3E-4B39-97CB-CAF91C34D1A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDF970B4-AD3E-4B39-97CB-CAF91C34D1A3}.Debug|x64.ActiveCfg = Debug|x64
+		{FDF970B4-AD3E-4B39-97CB-CAF91C34D1A3}.Debug|x64.Build.0 = Debug|x64
+		{FDF970B4-AD3E-4B39-97CB-CAF91C34D1A3}.Debug|x86.ActiveCfg = Debug|Win32
+		{FDF970B4-AD3E-4B39-97CB-CAF91C34D1A3}.Debug|x86.Build.0 = Debug|Win32
+		{FDF970B4-AD3E-4B39-97CB-CAF91C34D1A3}.Release|x64.ActiveCfg = Release|x64
+		{FDF970B4-AD3E-4B39-97CB-CAF91C34D1A3}.Release|x64.Build.0 = Release|x64
+		{FDF970B4-AD3E-4B39-97CB-CAF91C34D1A3}.Release|x86.ActiveCfg = Release|Win32
+		{FDF970B4-AD3E-4B39-97CB-CAF91C34D1A3}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28E73AFE-E10A-41C8-92B8-F4DDF8187B0C}
+	EndGlobalSection
+EndGlobal
