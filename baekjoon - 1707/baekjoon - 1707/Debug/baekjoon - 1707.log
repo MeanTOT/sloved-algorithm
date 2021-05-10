@@ -1,0 +1,4 @@
+﻿  baekjoon - 1707.cpp
+C:\Users\dpals\Desktop\main\projects\sloved-algorithm\baekjoon - 1707\baekjoon - 1707\baekjoon - 1707.cpp(20,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dpals\Desktop\main\projects\sloved-algorithm\baekjoon - 1707\baekjoon - 1707\baekjoon - 1707.cpp(14): warning C4715: 'ChangeColor': not all control paths return a value
+  baekjoon - 1707.vcxproj -> C:\Users\dpals\Desktop\main\projects\sloved-algorithm\baekjoon - 1707\Debug\baekjoon - 1707.exe
