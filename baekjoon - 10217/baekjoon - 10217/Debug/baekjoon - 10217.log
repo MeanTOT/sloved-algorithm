@@ -1,0 +1,27 @@
+﻿  baekjoon - 10217.cpp
+C:\Users\dpals\Desktop\main\projects\sloved-algorithm\baekjoon - 10217\baekjoon - 10217\baekjoon - 10217.cpp(28,21): warning C4018: '<': signed/unsigned mismatch
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstddef(127,22): error C2676: binary '<': 'const _Ty' does not define this operator or a conversion to a type acceptable to the predefined operator
+          with
+          [
+              _Ty=Node
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstddef(126): message : while compiling class template member function 'bool std::less<_Ty>::operator ()(const _Ty &,const _Ty &) const'
+          with
+          [
+              _Ty=Node
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xutility(1624): message : see reference to function template instantiation 'bool std::less<_Ty>::operator ()(const _Ty &,const _Ty &) const' being compiled
+          with
+          [
+              _Ty=Node
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\queue(295): message : see reference to class template instantiation 'std::less<_Ty>' being compiled
+          with
+          [
+              _Ty=Node
+          ]
+C:\Users\dpals\Desktop\main\projects\sloved-algorithm\baekjoon - 10217\baekjoon - 10217\baekjoon - 10217.cpp(18): message : see reference to class template instantiation 'std::priority_queue<Node,std::vector<Node,std::allocator<Node>>,std::less<_Ty>>' being compiled
+          with
+          [
+              _Ty=Node
+          ]
