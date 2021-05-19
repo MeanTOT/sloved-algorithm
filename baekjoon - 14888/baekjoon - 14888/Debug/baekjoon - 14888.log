@@ -1,0 +1,5 @@
+﻿  baekjoon - 14888.cpp
+C:\Users\dpals\Desktop\main\projects\sloved-algorithm\baekjoon - 14888\baekjoon - 14888\baekjoon - 14888.cpp(37,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dpals\Desktop\main\projects\sloved-algorithm\baekjoon - 14888\baekjoon - 14888\baekjoon - 14888.cpp(65,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dpals\Desktop\main\projects\sloved-algorithm\baekjoon - 14888\baekjoon - 14888\baekjoon - 14888.cpp(23): warning C4715: 'DoOper': not all control paths return a value
+  baekjoon - 14888.vcxproj -> C:\Users\dpals\Desktop\main\projects\sloved-algorithm\baekjoon - 14888\Debug\baekjoon - 14888.exe
