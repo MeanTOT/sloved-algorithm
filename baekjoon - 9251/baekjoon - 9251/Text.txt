@@ -1,0 +1,1 @@
+void LCS(int S1_start, int S2_start, char token, string str)
