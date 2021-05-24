@@ -1,5 +1,5 @@
 ﻿  baekjoon - 9251.cpp
-C:\Users\dpals\Desktop\main\projects\sloved-algorithm\baekjoon - 9251\baekjoon - 9251\baekjoon - 9251.cpp(9,27): warning C4018: '<': signed/unsigned mismatch
-C:\Users\dpals\Desktop\main\projects\sloved-algorithm\baekjoon - 9251\baekjoon - 9251\baekjoon - 9251.cpp(23,38): warning C4018: '<': signed/unsigned mismatch
-C:\Users\dpals\Desktop\main\projects\sloved-algorithm\baekjoon - 9251\baekjoon - 9251\baekjoon - 9251.cpp(54,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dpals\Desktop\main\projects\sloved-algorithm\baekjoon - 9251\baekjoon - 9251\baekjoon - 9251.cpp(11,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dpals\Desktop\main\projects\sloved-algorithm\baekjoon - 9251\baekjoon - 9251\baekjoon - 9251.cpp(27,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dpals\Desktop\main\projects\sloved-algorithm\baekjoon - 9251\baekjoon - 9251\baekjoon - 9251.cpp(47,20): warning C4018: '<': signed/unsigned mismatch
   baekjoon - 9251.vcxproj -> C:\Users\dpals\Desktop\main\projects\sloved-algorithm\baekjoon - 9251\Debug\baekjoon - 9251.exe
