@@ -1,0 +1,4 @@
+﻿  beakjoon - 2004.cpp
+C:\Users\dpals\Desktop\main\projects\sloved-algorithm\beakjoon - 2004\beakjoon - 2004\beakjoon - 2004.cpp(11,27): warning C4244: '+=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\dpals\Desktop\main\projects\sloved-algorithm\beakjoon - 2004\beakjoon - 2004\beakjoon - 2004.cpp(26,27): warning C4244: '+=': conversion from '__int64' to 'int', possible loss of data
+  beakjoon - 2004.vcxproj -> C:\Users\dpals\Desktop\main\projects\sloved-algorithm\beakjoon - 2004\Debug\beakjoon - 2004.exe
