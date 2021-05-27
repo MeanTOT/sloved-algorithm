@@ -4,7 +4,8 @@ using namespace std;
 struct Node
 {
     int value = 0;
-    Node* next = nullptr;
+    Node* left = nullptr;
+    Node* right = nullptr;
 };
 
 class MyDeque
@@ -17,18 +18,26 @@ public:
     void Push_front(int val)
     {
         Node* newNode = new Node;
-        newNode->value = val;        
-        if (front == nullptr)
+        newNode->value = val;
+        
+        if (size == 0)
         {
             front = newNode;
-            if (back == nullptr)
-                back = newNode;
+            back = newNode;
+        }
+        else if (size == 1)
+        {
+            newNode->right = back;
+            back->left = newNode;
+            front = newNode;
         }
         else
         {
-            newNode->next = front;
+            front->left = newNode;
+            newNode->right = front;
             front = newNode;
         }
+
         size++;
     }
 
@@ -36,15 +45,22 @@ public:
     {
         Node* newNode = new Node;
         newNode->value = val;
-        if (back == nullptr)
+
+        if (size == 0)
         {
             back = newNode;
-            if (front == nullptr)
-                front = newNode;            
+            front = newNode;
+        }
+        else if (size == 1)
+        {
+            newNode->left = front;
+            front->right = newNode;
+            back = newNode;
         }
         else
         {
-            newNode->next = back;
+            back->right = newNode;
+            newNode->left = back;
             back = newNode;
         }
         size++;
@@ -52,36 +68,30 @@ public:
 
     void Pop_front()
     {
-        if (front != nullptr)
+        if (size == 0) cout << "-1" << "\n";
+        else
         {
             Node* temp = front;
             cout << front->value << "\n";
-            front = front->next;            
-            delete(temp);      
+            front = front->right;
+            delete(temp);
         }
-        else
-            cout << -1 << "\n";
 
         if (size > 0) size--;
-
-        if (size == 1) front = back;
     }
 
     void Pop_back()
     {
-        if (back != nullptr)
+        if (size == 0) cout << "-1" << "\n";
+        else
         {
             Node* temp = back;
             cout << back->value << "\n";
-            back = back->next;
+            back = back->left;
             delete(temp);
         }
-        else
-            cout << -1 << "\n";
 
         if (size > 0) size--;
-
-        if (size == 1) back = front;
     }
     void Size()
     {
